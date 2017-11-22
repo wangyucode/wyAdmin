@@ -1,5 +1,8 @@
 <template>
-  <h1>this is Login</h1>
+    <div class="container center-block">
+      <h1>this is Login</h1>
+    </div>
+
 </template>
 
 
@@ -8,3 +11,7 @@
     name: 'Login'
   }
 </script>
+
+
+<style scoped>
+</style>
