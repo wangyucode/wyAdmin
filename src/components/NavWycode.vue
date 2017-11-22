@@ -34,11 +34,13 @@
 
 <script>
   export default {
-    name: "Nav"
   }
 </script>
 
 <style scoped>
+  .navbar-dark .navbar-nav .nav-link {
+    color: #eee;
+  }
   a.nav-link.active {
     background-color: rgba(0,140,160,0.8);
     border-radius: 4px;
