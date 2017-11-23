@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
+
       <div class="tech-stack col-6">
         <h2>技术栈</h2>
         <ul>
@@ -10,14 +11,16 @@
           <li>1234</li>
         </ul>
       </div>
+
       <form class="form-signin col-4 offset-2">
         <h2 class="form-signin-heading">登录</h2>
         <p class="text-info">可以使用guest guest 游客登录</p>
         <input type="text" id="inputUser" class="form-control" placeholder="用户名" required="" autofocus="">
         <input type="password" id="inputPassword" class="form-control" placeholder="密码" required="">
         <button class="btn btn-primary btn-block" type="submit">登录</button>
-        <a class = "register" href="#">没有账号？立即注册！</a>
+        <router-link to="/register" class ="register">没有账号？立即注册</router-link>
       </form>
+
     </div>
   </div>
 </template>
