@@ -5,10 +5,16 @@
       <div class="tech-stack col-6">
         <h2>技术栈</h2>
         <ul>
-          <li>1234</li>
-          <li>1234</li>
-          <li>1234</li>
-          <li>1234</li>
+          <li>Bootstrap</li>
+          <li>Vue</li>
+          <li>Vue Router</li>
+          <li>Vuex</li>
+          <li>Axios</li>
+          <li>Spring Boot</li>
+          <li>Spring Security</li>
+          <li>Spring JPA</li>
+          <li>H2 Database</li>
+          <li>JWT</li>
         </ul>
       </div>
 
