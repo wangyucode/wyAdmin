@@ -13,6 +13,7 @@
           <li>Spring Boot</li>
           <li>Spring Security</li>
           <li>Spring JPA</li>
+          <li>Thymeleaf</li>
           <li>H2 Database</li>
           <li>Swagger</li>
           <li>JWT</li>
