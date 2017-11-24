@@ -2,7 +2,7 @@ import fetch from '@/utils/fetch'
 
 export function login(username, password) {
   return fetch({
-    url: '/user/login',
+    url: '/api/auth/login',
     method: 'post',
     data: {
       username,
